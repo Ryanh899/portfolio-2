@@ -1,0 +1,184 @@
+/* container wrapping whole page  */
+#page-container {
+    width: 100vw;
+    margin: 0px;
+    background: #263544;
+}
+
+/* navbar css  */
+
+#navbar-menu {
+    background: #263544;
+    color: white;
+    padding: 2vh;
+    width: 100%;
+    position: absolute;
+}
+
+#menu-title-icon {
+    color: #7F9AA7;
+    padding: 0px;
+}
+
+#menu-title-name {
+    font-size: 35px;
+    padding: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-links {
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#top-header {
+    background: #7F9AA7;
+}
+
+#menu-row {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+#navbar-inner-grid {
+    align-items: center;
+}
+
+/* landing page  */
+
+#landing-outer-row {
+    height: 100vh;
+}
+
+#landing-name {
+    color: white;
+    font-size: 85px;
+}
+
+#landing-title {
+    color: white;
+    font-size: 35px;
+}
+
+#fade-column {
+    text-align: center;
+}
+
+#landing-arrow-column {
+    text-align: center;
+}
+
+/* about section  */
+
+#about-section {
+    background: white;
+    height: 90vh;
+}
+
+#about-section-title {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#about-info-column {
+    text-align: center;
+    padding-top: 0px;
+}
+
+#about-inner-grid {
+    width: 100%;
+}
+ 
+#about-text {
+    font-size: 16px;
+}
+
+#about-image {
+    background: #263544;
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+/* project section  */
+
+#project-section {
+    height: 100vh;
+}
+
+#project-section-title {
+    color: white;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* project modals  */
+.modalButton {
+    width: 100%;
+}
+
+#vision-modal-image {
+    height: 300px;
+    width: auto;
+}
+
+#books-modal-image {
+    height: 300px;
+    width: auto;
+}
+
+#brew-modal-image {
+    height: 300px;
+    width: auto;
+}
+
+.modal-description-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.brewModalButton {
+    width: 100%;
+}
+
+/* skills section  */
+
+#skills-section {
+    height: 100vh;
+    background-image: url('../images/wave-background.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#skills-title {
+    font-size: 100px;
+    color: white;
+}
+
+#skills-overlay-container {
+        width: 100%; 
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.3); 
+}
+
+.skills-icons {
+    height: 150px; 
+    width: 100%;
+}
+
+.skills-menu-text {
+    color: white;
+}
+
+#express {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
